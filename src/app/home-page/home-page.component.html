@@ -1,0 +1,43 @@
+
+<!--Hero Page-->
+<div class="hero-pg">
+  <img  src="assets/rust-header.jpg" alt="rust-img">
+  <div class="sub-hero">
+    <h3 class="cursor">Join Now</h3>
+    <div class="downButton cursor">
+      <i class="icon-button fa-solid fa-chevron-down" (click)="scrollDown()"></i>
+    </div>
+  </div>
+</div>
+<!--Server Info Section-->
+<div class="server-info">
+  <h1>Welcome To MzM Gaming Rusty Servers</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra nunc vitae est lacinia, a feugiat mauris commodo.
+    Praesent ultrices hendrerit erat. Nunc placerat dolor non eros eleifend, quis viverra libero facilisis.
+    Cras arcu dui, feugiat id sagittis quis, commodo pellentesque nibh. Curabitur et maximus urna, ac pulvinar nulla.
+    Sed ut lorem pretium, eleifend tortor ac, rhoncus est. Aenean cursus, ante eu faucibus vulputate, lorem dui ullamcorper
+    nisi, quis ultrices turpis libero sit amet risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    Vivamus sollicitudin scelerisque aliquam. Phasellus at sollicitudin felis. Proin purus mi, laoreet non quam in, suscipit maximus tortor. Nulla vitae auctor dolor.
+    Aenean dignissim ullamcorper vestibulum. Mauris aliquam, purus sed convallis imperdiet, velit dolor ultricies ipsum, placerat convallis magna ex nec nunc.
+    Praesent cursus dictum est in consequat. </p>
+</div>
+
+<!--Server Details Section-->
+<div class="server-details">
+  <img src="assets/server-img.png" alt="server-details">
+  <div class="left-side">
+    <h2>MzM [EU/TR] PvE </h2>
+  </div>
+  <div class="right-side">
+    <h2>Server Details</h2>
+    <h3>IP:123456</h3>
+    <button [routerLink]="serverPage" class="info-btn cursor"><a>More Info</a></button>
+  </div>
+</div>
+<footer>
+  <i class="fa-regular fa-copyright"></i>
+  <h3>2023 MzM Gaming | All rights reserved</h3>
+</footer>
+<div class="upButton">
+  <i class="icon-button fa-solid fa-angles-up cursor" (click)="scrollUp()"></i>
+</div>

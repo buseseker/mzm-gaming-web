@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+<div class="bg-img">
+  <nav>
+    <div class="navbar-header">
+      <img [routerLink]="homePage" class="navbar-logo cursor" src="assets/mzm-round-icon.png" alt="mzm-logo">
+      <h2 class="cursor" [routerLink]="homePage">MzM Gaming</h2>
+    </div>
+    <div class="navbar-lnk">
+      <ul>
+        <li>
+          <button [routerLink]="shopPage" class="nav-btn bg-orange"><a><img class="nav-btn-logo" src="assets/shopping-cart-20377.png" alt="shop-page"> Shop</a></button>
+        </li>
+        <li>
+          <button class="nav-btn bg-green"><img class="nav-btn-logo" src="assets/whatsapp-xxl.png" alt="contact">Contact</button>
+        </li>
+        <li>
+          <button class="nav-btn bg-blue"><img class="nav-btn-logo" src="assets/discord_.png" alt="discord">Discord</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
+
