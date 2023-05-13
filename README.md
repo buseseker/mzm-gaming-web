@@ -11,4 +11,4 @@ The project will be live on the following URL: https://mzmgaming.net
 ## Features Inprogress
 - [ ] Server Page with server-rules and server connect info
 - [ ] Shop Page with sub-packages for buy
-- 404 Not Found Page
+- [ ] 404 Not Found Page
