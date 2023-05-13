@@ -2,7 +2,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
-<div class="bg-img">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+<div>
   <nav>
     <div class="navbar-header">
       <img [routerLink]="homePage" class="navbar-logo cursor" src="assets/mzm-round-icon.png" alt="mzm-logo">
@@ -13,7 +16,7 @@
         <li>
           <button [routerLink]="shopPage" class="nav-btn bg-orange"><a><img class="nav-btn-logo" src="assets/shopping-cart-20377.png" alt="shop-page"> Shop</a></button>
         </li>
-        <li>
+        <li (click)="window.open('https://wa.me/message/AUO52NMZAM7LF1', '_blank')">
           <button class="nav-btn bg-green"><img class="nav-btn-logo" src="assets/whatsapp-xxl.png" alt="contact">Contact</button>
         </li>
         <li>

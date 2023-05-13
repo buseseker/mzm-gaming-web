@@ -1,0 +1,28 @@
+$btn-color: rgb(252, 79, 0);
+$txt-color: rgb(255, 255, 255);
+.section-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.server-info{
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  h2{
+    margin-bottom: 2rem;
+    color:$btn-color ;
+  }
+  p{
+    color:$txt-color ;
+  }
+}
+.server-rules{
+  h2{
+    margin-bottom: 2rem;
+    color:$btn-color ;
+  }
+  li{
+    color:$txt-color ;
+  }
+}

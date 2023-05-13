@@ -15,9 +15,10 @@ export class HomePageComponent {
       }
     );
   }
+
   scrollUp(){
     window.scroll( {
-      top:window.innerHeight/100,
+      top:window.screenTop,
       behavior:"smooth"
     })
 
