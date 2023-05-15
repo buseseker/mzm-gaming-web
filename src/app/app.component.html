@@ -14,6 +14,9 @@
     <div class="navbar-lnk">
       <ul>
         <li>
+          <button [routerLink]="serverPage" class="nav-btn bg-server"><a><img class="nav-btn-logo-gamepad" src="assets/gamepad-icon.png" alt="shop-page"> Server</a></button>
+        </li>
+        <li>
           <button [routerLink]="shopPage" class="nav-btn bg-orange"><a><img class="nav-btn-logo" src="assets/shopping-cart-20377.png" alt="shop-page"> Shop</a></button>
         </li>
         <li (click)="window.open('https://wa.me/message/AUO52NMZAM7LF1', '_blank')">

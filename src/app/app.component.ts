@@ -12,6 +12,7 @@ export class AppComponent {
   protected readonly ShopPageComponent = ShopPageComponent;
   public homePage = "";
   public shopPage = "/shop";
+  public serverPage = "/server";
   currentScreenSize!: string;
 
   // Browser window size map
