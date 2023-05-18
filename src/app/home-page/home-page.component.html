@@ -2,7 +2,7 @@
 <div class="hero-pg">
   <img  src="assets/rust-header.jpg" alt="rust-img">
   <div class="sub-hero">
-    <button class="cursor middle-btn">Play Now</button>
+    <button onClick="location.href='steam://run/252490'" class="cursor middle-btn ip">Play Now</button>
     <div class="downButton cursor" (click)="scrollDown()">
       <i class="icon-button fa-solid fa-chevron-down" ></i>
     </div>
@@ -29,8 +29,8 @@
   </div>
   <div class="right-side">
     <h2>Server Details</h2>
-    <h3>IP:123456</h3>
-    <button [routerLink]="serverPage" class="info-btn cursor"><a>More Info</a></button>
+    <h3>212.868.34.172:28015</h3>
+    <button [routerLink]="serverPage" class="info-btn cursor info"><a>More Info</a></button>
   </div>
 </div>
 

@@ -1,4 +1,9 @@
 $page-bg-color: rgb(69, 69, 69);
+html{
+  scroll-behavior: smooth;
+
+
+}
 body{
   background-color: $page-bg-color;
   background-attachment: fixed;
